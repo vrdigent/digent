@@ -4,11 +4,14 @@ angular.module('dgentApp', [
   'dgentApp.auth',
   'dgentApp.admin',
   'dgentApp.constants',
+  'dgentApp.featuresdemo',
+  
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'btford.socket-io',
   'ui.router',
+  
+  'btford.socket-io',
   'validation.match'
 ])
   .config(function($urlRouterProvider, $locationProvider) {
