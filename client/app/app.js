@@ -1,19 +1,13 @@
 'use strict';
 
 angular.module('dgentApp', [
-  'dgentApp.auth',
-  'dgentApp.admin',
-  'dgentApp.constants',
+    'dgentApp.auth',
+    'dgentApp.admin',
+    'dgentApp.constants',
 
-  'ngCookies',
-  'ngResource',
-  'ngSanitize',
-  'ui.router',
-
-  'btford.socket-io',
-  'validation.match'
-])
-  .config(function($urlRouterProvider, $locationProvider) {
+    'dgentApp.core'
+  ])
+  .config(function ($urlRouterProvider, $locationProvider) {
     $urlRouterProvider
       .otherwise('/');
 

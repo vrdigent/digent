@@ -2,20 +2,19 @@
 
 class NavbarController {
   //start-non-standard
-  menu = [
-    {
-      'title': 'Home',
-      'state': 'main'
-    },
+  //ASK: How to write correct?
+  menu = [{
+    'title': 'Home',
+    'state': 'main'
+  },
     {
       'title': 'About LazerTag',
       'state': 'about'
-    },
-    {
+    }, {
       'title': 'Contacts',
       'state': 'contacts'
-    }
-  ];
+    }];
+//end-non-standard
 
   constructor(Auth) {
     this.isLoggedIn = Auth.isLoggedIn;
