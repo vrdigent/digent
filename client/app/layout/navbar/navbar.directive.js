@@ -2,7 +2,7 @@
 
 angular.module('dgentApp')
   .directive('navbar', () => ({
-    templateUrl: 'app/components/navbar/navbar.html',
+    templateUrl: 'app/layout/navbar/navbar.html',
     restrict: 'E',
     controller: 'NavbarController',
     controllerAs: 'nav'
