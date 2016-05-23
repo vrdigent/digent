@@ -4,13 +4,12 @@ angular.module('dgentApp', [
   'dgentApp.auth',
   'dgentApp.admin',
   'dgentApp.constants',
-  'dgentApp.featuresdemo',
-  
+
   'ngCookies',
   'ngResource',
   'ngSanitize',
   'ui.router',
-  
+
   'btford.socket-io',
   'validation.match'
 ])
