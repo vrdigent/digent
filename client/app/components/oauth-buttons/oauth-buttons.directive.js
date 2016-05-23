@@ -3,7 +3,7 @@
 angular.module('dgentApp')
   .directive('oauthButtons', function() {
     return {
-      templateUrl: 'components/oauth-buttons/oauth-buttons.html',
+      templateUrl: 'app/components/oauth-buttons/oauth-buttons.html',
       restrict: 'EA',
       controller: 'OauthButtonsCtrl',
       controllerAs: 'OauthButtons',

@@ -4,7 +4,7 @@ describe('Directive: oauthButtons', function() {
 
   // load the directive's module and view
   beforeEach(module('dgentApp'));
-  beforeEach(module('components/oauth-buttons/oauth-buttons.html'));
+  beforeEach(module('app/components/oauth-buttons/oauth-buttons.html'));
 
   var element, parentScope, elementScope;
 
